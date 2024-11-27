@@ -16,10 +16,6 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
-.shadow-decor {
-  text-shadow: 2px 2px 0 var(--accent-color, #ff0070); /*Тени для ссылок*/
-}
-
 /*header*/
 
 .header {
@@ -103,6 +99,10 @@
 
 .link {
   text-decoration: none;
+}
+
+.shadow-decor {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070); /*Тени для ссылок*/
 }
 
 .link:hover {
