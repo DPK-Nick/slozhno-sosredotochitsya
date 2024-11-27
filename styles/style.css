@@ -16,6 +16,10 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
+.shadow-decor {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070); /*Тени для ссылок*/
+}
+
 /*header*/
 
 .header {
@@ -50,7 +54,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color-o-40, #ff007040);
+  border-color: var(--secondary-color-o-head, #ff007040);
 }
 
 .header__theme-menu-button:focus {
@@ -90,7 +94,7 @@
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   min-block-size: 100vh;
-  min-height: 375px;
+  min-height: 1024px;
 }
 
 .decorated-zone {
@@ -106,7 +110,7 @@
 }
 
 .link:focus {
-  outline: 0;
+  outline: 1px solid currentColor;
 }
 
 .link:focus-visible {
@@ -200,7 +204,14 @@
 
 .title-decor {
   color: var(--highlight-color, #000028);
-  background: var(--accent-color, #ff0070);
+  background-color: var(--accent-color, #ff0070);
+}
+
+.title-invert {
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--highlight-color, #000028);
+  font-weight: 400;
 }
 
 .gallery-list__item-img {
@@ -286,7 +297,7 @@
 
 @media (width >= 1024px) {
   .page-title {
-    text-shadow: 4px 4px 0 var(--color-purple-2, #ff0070);
+    text-shadow: 4px 4px 0 var(--color-purple-page, #ff0070);
   }
 
   .section {

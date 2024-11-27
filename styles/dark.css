@@ -2,13 +2,13 @@
   :root {
     --page-background-image: url("../images/cover-image-dark.png");
     --rec-decor-visibility: visible;
-    --text-color: var(--color-pink-2, #f1b2ce);
-    --brand-color: var(--color-purple-1, #db00ff);
-    --secondary-color: var(--color-purple-2, #ff0070);
-    --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-    --accent-color: var(--color-purple-2, #ff0070);
-    --highlight-color: var(--color-black-1, #000028);
-    --page-background-color: var(--color-black-1, #000028);
+    --text-color: var(--color-pink-text, #f1b2ce);
+    --brand-color: var(--color-purple-brand, #db00ff);
+    --secondary-color: var(--color-purple-page, #ff0070);
+    --secondary-color-o-head: var(--color-purple-sec-o-head, #ff007040);
+    --accent-color: var(--color-purple-page, #ff0070);
+    --highlight-color: var(--color-black-back, #000028);
+    --page-background-color: var(--color-black-back, #000028);
   }
 }
 
@@ -21,13 +21,13 @@
 .page.theme_dark {
   --page-background-image: url("../images/cover-image-dark.png");
   --rec-decor-visibility: visible;
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
-  --page-background-color: var(--color-black-1, #000028);
+  --text-color: var(--color-pink-text, #f1b2ce);
+  --brand-color: var(--color-purple-brand, #db00ff);
+  --secondary-color: var(--color-purple-page, #ff0070);
+  --secondary-color-o-head: var(--color-purple-sec-o-head, #ff007040);
+  --accent-color: var(--color-purple-page, #ff0070);
+  --highlight-color: var(--color-black-back, #000028);
+  --page-background-color: var(--color-black-back, #000028);
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,

@@ -2,13 +2,13 @@
   :root {
     --page-background-image: url("../images/cover-image-light.png");
     --rec-decor-visibility: hidden;
-    --text-color: var(--color-black-2, #353430);
-    --accent-color: var(--color-pink-4, #ff8dcb);
-    --brand-color: var(--color-pink-3, #ffc2e6);
-    --highlight-color: var(--color-black-2, #353430);
-    --secondary-color: var(--color-black-2, #353430);
-    --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
-    --page-background-color: var(--color-pink-1, #fff1f7);
+    --text-color: var(--color-black-text, #353430);
+    --accent-color: var(--color-pink-accent, #ff8dcb);
+    --brand-color: var(--color-pink-brand, #ffc2e6);
+    --highlight-color: var(--color-black-text, #353430);
+    --secondary-color: var(--color-black-text, #353430);
+    --secondary-color-o-head: var(--color-black-sec-o-head, #35343040);
+    --page-background-color: var(--color-pink-back, #fff1f7);
   }
 }
 
@@ -21,13 +21,13 @@
 .page.theme_light {
   --page-background-image: url("../images/cover-image-light.png");
   --rec-decor-visibility: hidden;
-  --text-color: var(--color-black-2, #353430);
-  --accent-color: var(--color-pink-4, #ff8dcb);
-  --brand-color: var(--color-pink-3, #ffc2e6);
-  --highlight-color: var(--color-black-2, #353430);
-  --secondary-color: var(--color-black-2, #353430);
-  --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
-  --page-background-color: var(--color-pink-1, #fff1f7);
+  --text-color: var(--color-black-text, #353430);
+  --accent-color: var(--color-pink-accent, #ff8dcb);
+  --brand-color: var(--color-pink-brand, #ffc2e6);
+  --highlight-color: var(--color-black-text, #353430);
+  --secondary-color: var(--color-black-text, #353430);
+  --secondary-color-o-head: var(--color-black-sec-o-head, #35343040);
+  --page-background-color: var(--color-pink-back, #fff1f7);
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
