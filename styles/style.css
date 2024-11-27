@@ -96,20 +96,6 @@
   position: relative;
 }
 
-.decorated-zone::before {
-  border-inline-end: 1px solid var(--secondary-color, #ff0070);
-  border-block-start: 1px solid var(--secondary-color, #ff0070);
-  inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-}
-
-.decorated-zone::after {
-  border-inline-start: 1px solid var(--secondary-color, #ff0070);
-  border-block-end: 1px solid var(--secondary-color, #ff0070);
-  inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-}
-
 .link {
   text-decoration: none;
 }
@@ -124,6 +110,21 @@
 
 .link:focus-visible {
   outline: 1px solid currentColor;
+}
+
+
+.decorated-zone::before {
+  border-inline-end: 1px solid var(--secondary-color, #ff0070);
+  border-block-start: 1px solid var(--secondary-color, #ff0070);
+  inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+}
+
+.decorated-zone::after {
+  border-inline-start: 1px solid var(--secondary-color, #ff0070);
+  border-block-end: 1px solid var(--secondary-color, #ff0070);
+  inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
 .rec-decor {
@@ -161,18 +162,6 @@
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
 
-.title {
-  color: var(--secondary-color, #ff0070);
-  font-weight: 700;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-.title-decor {
-  color: var(--highlight-color, #000028);
-  background: var(--accent-color, #ff0070);
-}
-
 .section {
   display: grid;
   gap: 20px;
@@ -199,6 +188,18 @@
 .gallery-list {
   display: grid;
   gap: 10px;
+}
+
+.title {
+  color: var(--secondary-color, #ff0070);
+  font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.title-decor {
+  color: var(--highlight-color, #000028);
+  background: var(--accent-color, #ff0070);
 }
 
 .gallery-list__item-img {
