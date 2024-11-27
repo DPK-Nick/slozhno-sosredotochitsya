@@ -96,15 +96,6 @@
   position: relative;
 }
 
-.decorated-zone::before,
-.decorated-zone::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inline-size: 25px;
-  block-size: 25px;
-}
-
 .decorated-zone::before {
   border-inline-end: 1px solid var(--secondary-color, #ff0070);
   border-block-start: 1px solid var(--secondary-color, #ff0070);
@@ -216,6 +207,15 @@
   object-position: center;
   block-size: 100%;
   inline-size: 100%;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inline-size: 25px;
+  block-size: 25px;
 }
 
 /*Media*/
