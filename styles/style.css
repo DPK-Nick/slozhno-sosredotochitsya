@@ -89,8 +89,8 @@
 .cover {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  block-size: 100vh;
-  min-block-size: 768px;
+  min-block-size: 100vh;
+  max-height: 768px;
 }
 
 .decorated-zone {
