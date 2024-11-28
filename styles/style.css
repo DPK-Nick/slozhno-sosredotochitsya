@@ -99,14 +99,11 @@
 
 .link {
   text-decoration: none;
-}
-
-.shadow-decor {
-  text-shadow: 2px 2px 0 var(--accent-color, #ff0070); /*Тени для ссылок*/
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--text-color, #353430);
 }
 
 .link:focus {
